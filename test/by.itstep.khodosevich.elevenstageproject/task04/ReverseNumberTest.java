@@ -33,7 +33,7 @@ public class ReverseNumberTest {
         assertEquals(expected, actual);
     }
 
-    @Test (expected = RuntimeException.class)
+    @Test
     public void testGetReverseNumberWithOneNumber(){
         int actual_number = 5;
         int expected = 5;
@@ -46,13 +46,13 @@ public class ReverseNumberTest {
     @Test (expected = RuntimeException.class)
     public void testGetReverseNumberWithZero(){
         int actual_number = 0;
-        int actual = getReverseNumber(actual_number);
+        getReverseNumber(actual_number);
     }
 
     @Test (expected = RuntimeException.class)
     public void testGetReverseNumberNegative(){
         int actual_number = -6;
-        int actual = getReverseNumber(actual_number);
+        getReverseNumber(actual_number);
     }
 
 
