@@ -27,7 +27,7 @@ public class ControllerNumber {
         int var2 = SCANNER.nextInt();
 
         String msg = String.format("Greatest common divisor = %d, " +
-                "\nLeast common multiple = %d.",
+                        "\nLeast common multiple = %d.",
                 getGreatestCommonDivisor(var1, var2), getLeastCommonMultiple(var1, var2));
 
         Printer.print(msg);

@@ -1,13 +1,14 @@
 package by.itstep.khodosevich.elevenstageproject.task08;
 
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 import static by.itstep.khodosevich.elevenstageproject.task08.module.logic.LeastCommonMultiple.*;
 
 public class LeastCommonMultipleTest {
 
     @Test
-    public void testGetLeastCommonMultiplePositiveFirst(){
+    public void testGetLeastCommonMultiplePositiveFirst() {
         int actual_var1 = 9;
         int actual_var2 = 12;
         int expected = 36;
@@ -17,7 +18,7 @@ public class LeastCommonMultipleTest {
     }
 
     @Test
-    public void testGetLeastCommonMultiplePositiveSecond(){
+    public void testGetLeastCommonMultiplePositiveSecond() {
         int actual_var1 = 50;
         int actual_var2 = 180;
         int expected = 900;
@@ -27,7 +28,7 @@ public class LeastCommonMultipleTest {
     }
 
     @Test
-    public void testGetLeastCommonMultipleWithPrimeNumber(){
+    public void testGetLeastCommonMultipleWithPrimeNumber() {
         int actual_var1 = 7;
         int actual_var2 = 17;
         int expected = 119;
@@ -37,7 +38,7 @@ public class LeastCommonMultipleTest {
     }
 
     @Test(expected = RuntimeException.class)
-    public void testGetLeastCommonMultipleWithZero(){
+    public void testGetLeastCommonMultipleWithZero() {
         int actual_var1 = 0;
         int actual_var2 = 12;
 
@@ -45,7 +46,7 @@ public class LeastCommonMultipleTest {
     }
 
     @Test(expected = RuntimeException.class)
-    public void testGetLeastCommonMultipleWithOne(){
+    public void testGetLeastCommonMultipleWithOne() {
         int actual_var1 = 1;
         int actual_var2 = 12;
 
@@ -53,7 +54,7 @@ public class LeastCommonMultipleTest {
     }
 
     @Test(expected = RuntimeException.class)
-    public void testGetLeastCommonMultipleWithNegativeNumber(){
+    public void testGetLeastCommonMultipleWithNegativeNumber() {
         int actual_var1 = 12;
         int actual_var2 = -1;
 
