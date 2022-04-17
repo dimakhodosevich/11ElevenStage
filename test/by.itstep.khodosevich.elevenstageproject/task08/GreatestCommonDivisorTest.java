@@ -10,7 +10,7 @@ public class GreatestCommonDivisorTest {
     public void testGetGreatestCommonDivisorPositive(){
         int actual_var1 = 18;
         int actual_var2 = 27;
-        int expected = 9;
+        int expected = 3;
 
         int actual = getGreatestCommonDivisor(actual_var1, actual_var2);
         assertEquals(expected, actual);
