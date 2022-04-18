@@ -17,12 +17,12 @@ public class HappyNumber {
             return true;
         }
 
-        String msg = number + "";
-
-        if (msg.length() > 6) {
-            System.err.println(ERROR);
-            throw new RuntimeException();
-        }
+//        String msg = number + "";
+//
+//        if (msg.length() > 6) {
+//            System.err.println(ERROR);
+//            throw new RuntimeException();
+//        }
 
         int sum1 = 0;
         int sum2 = 0;
